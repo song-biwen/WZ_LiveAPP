@@ -1,2 +1,2 @@
 # WZ_LiveAPP
-iOSs集成使用IJKPlayer实现直播
+iOS集成使用IJKPlayer实现直播
