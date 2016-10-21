@@ -21,8 +21,6 @@
 		4C32D7AF1DB85DBA00F9BE71 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C32D7AE1DB85DBA00F9BE71 /* libz.tbd */; };
 		4C32D7B11DB85DD000F9BE71 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C32D7B01DB85DD000F9BE71 /* libbz2.tbd */; };
 		4C32D7B61DB862BA00F9BE71 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C32D7B51DB862BA00F9BE71 /* IJKMediaFramework.framework */; };
-		4C32D7E81DB86CB900F9BE71 /* YZCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32D7D21DB86CB900F9BE71 /* YZCaptureViewController.m */; };
-		4C32D7E91DB86CB900F9BE71 /* YZCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C32D7D31DB86CB900F9BE71 /* YZCaptureViewController.xib */; };
 		4C3947DF1DB75BEE00ABAF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3947DE1DB75BEE00ABAF1F /* main.m */; };
 		4C3947E21DB75BEE00ABAF1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3947E11DB75BEE00ABAF1F /* AppDelegate.m */; };
 		4C3947EA1DB75BEE00ABAF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3947E91DB75BEE00ABAF1F /* Assets.xcassets */; };
@@ -34,6 +32,7 @@
 		4CA3DD4F1DB8BBA400101C7E /* WZLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3DD4D1DB8BBA400101C7E /* WZLiveCell.m */; };
 		4CA3DD501DB8BBA400101C7E /* WZLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA3DD4E1DB8BBA400101C7E /* WZLiveCell.xib */; };
 		4CA3DD531DB8BFD400101C7E /* WZLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3DD521DB8BFD400101C7E /* WZLiveViewController.m */; };
+		4CD4614C1DB9AA0300D13EFC /* WZCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4614B1DB9AA0300D13EFC /* WZCaptureViewController.m */; };
 		64FEC92E872407EB53213165 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B9AF31C285ACA0253E55E7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,9 +52,6 @@
 		4C32D7AE1DB85DBA00F9BE71 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4C32D7B01DB85DD000F9BE71 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		4C32D7B51DB862BA00F9BE71 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
-		4C32D7D11DB86CB900F9BE71 /* YZCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCaptureViewController.h; sourceTree = "<group>"; };
-		4C32D7D21DB86CB900F9BE71 /* YZCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCaptureViewController.m; sourceTree = "<group>"; };
-		4C32D7D31DB86CB900F9BE71 /* YZCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZCaptureViewController.xib; sourceTree = "<group>"; };
 		4C3947DA1DB75BEE00ABAF1F /* WZLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3947DE1DB75BEE00ABAF1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C3947E01DB75BEE00ABAF1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +73,8 @@
 		4CA3DD4E1DB8BBA400101C7E /* WZLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLiveCell.xib; sourceTree = "<group>"; };
 		4CA3DD511DB8BFD400101C7E /* WZLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLiveViewController.h; sourceTree = "<group>"; };
 		4CA3DD521DB8BFD400101C7E /* WZLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLiveViewController.m; sourceTree = "<group>"; };
+		4CD4614A1DB9AA0300D13EFC /* WZCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCaptureViewController.h; sourceTree = "<group>"; };
+		4CD4614B1DB9AA0300D13EFC /* WZCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCaptureViewController.m; sourceTree = "<group>"; };
 		4D91904E1AEBA39D8299E528 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		69B9AF31C285ACA0253E55E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,9 +155,8 @@
 		4C32D7D01DB86CB900F9BE71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4C32D7D11DB86CB900F9BE71 /* YZCaptureViewController.h */,
-				4C32D7D21DB86CB900F9BE71 /* YZCaptureViewController.m */,
-				4C32D7D31DB86CB900F9BE71 /* YZCaptureViewController.xib */,
+				4CD4614A1DB9AA0300D13EFC /* WZCaptureViewController.h */,
+				4CD4614B1DB9AA0300D13EFC /* WZCaptureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,7 +336,6 @@
 			files = (
 				4C3947ED1DB75BEE00ABAF1F /* LaunchScreen.storyboard in Resources */,
 				4C3947EA1DB75BEE00ABAF1F /* Assets.xcassets in Resources */,
-				4C32D7E91DB86CB900F9BE71 /* YZCaptureViewController.xib in Resources */,
 				4CA3DD501DB8BBA400101C7E /* WZLiveCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD4614C1DB9AA0300D13EFC /* WZCaptureViewController.m in Sources */,
 				4CA3DD451DB8B6B100101C7E /* WZBroadcastListController.m in Sources */,
 				4CA3DD411DB8AE3300101C7E /* WZMainViewController.m in Sources */,
 				4CA3DD4F1DB8BBA400101C7E /* WZLiveCell.m in Sources */,
@@ -406,7 +403,6 @@
 				4C3947E21DB75BEE00ABAF1F /* AppDelegate.m in Sources */,
 				4C3947DF1DB75BEE00ABAF1F /* main.m in Sources */,
 				4CA3DD481DB8B9ED00101C7E /* WZCreatorItem.m in Sources */,
-				4C32D7E81DB86CB900F9BE71 /* YZCaptureViewController.m in Sources */,
 				4CA3DD4B1DB8BA1800101C7E /* WZLiveItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

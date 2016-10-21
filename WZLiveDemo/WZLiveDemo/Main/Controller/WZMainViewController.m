@@ -8,6 +8,7 @@
 
 #import "WZMainViewController.h"
 #import "WZBroadcastListController.h" //直播列表
+#import "WZCaptureViewController.h" //音频采集
 
 @interface WZMainViewController ()
 @end
@@ -26,6 +27,13 @@
     [playVideo addTarget:self action:@selector(playVideoAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:playVideo];
     
+    
+    UIButton *videoVideo = [[UIButton alloc] initWithFrame:CGRectMake(20, 200, WZScreenWidth - 40, 40)];
+    [videoVideo setTitle:@"音频采集" forState:UIControlStateNormal];
+    videoVideo.backgroundColor = [UIColor brownColor];
+    [videoVideo addTarget:self action:@selector(videoCaptureAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:videoVideo];
+    
 }
 
 
@@ -36,4 +44,9 @@
 }
 
 
+/** 音频采集 */
+- (void)videoCaptureAction {
+    WZCaptureViewController *captureVC =  [[WZCaptureViewController alloc] init];
+    [self.navigationController pushViewController:captureVC animated:YES];
+}
 @end
